@@ -26,45 +26,8 @@ struct ContentView: View {
                 }
             }
             .foregroundColor(.red)
-            Spacer()
-            HStack{
-                vehicles
-                Spacer()
-                fruits
-                Spacer()
-                animals
-                
-            }
-            .padding(.horizontal)
-            .font(.largeTitle)
         }
         .padding(.horizontal)
-    }
-    
-    var vehicles: some View{
-        Button {
-            //Change array
-            print("Change Array To Vehicles")
-            gridArray = vehiclesArray.shuffled()
-        } label: {
-            VStack {
-                Image(systemName: "car")
-                Text("Vehicles").font(.body)
-            }
-        }
-    }
-    
-    var fruits: some View{
-        Button {
-            //Change array
-            print("Change Array To Fruits")
-            gridArray = fruitsArray.shuffled()
-        } label: {
-            VStack {
-                Image(systemName: "camera.macro")
-                Text("Fruits").font(.body)
-            }
-        }
     }
     
     var animals: some View{
