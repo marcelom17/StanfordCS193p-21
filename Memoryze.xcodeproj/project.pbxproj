@@ -86,6 +86,7 @@
 		CD55C70128FD28A500B647B0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CD91771828B7EC2C004349B1 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -125,7 +126,6 @@
 				CD55C70228FD28AF00B647B0 /* ViewModels */,
 				CD55C70128FD28A500B647B0 /* Views */,
 				CD91771628B7EC2C004349B1 /* MemoryzeApp.swift */,
-				CD91771828B7EC2C004349B1 /* ContentView.swift */,
 				CD91771A28B7EC2F004349B1 /* Assets.xcassets */,
 				CD91771C28B7EC2F004349B1 /* Preview Content */,
 			);
